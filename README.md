@@ -1,1 +1,1 @@
-# quickshare
+# SnapSnippet
