@@ -11,12 +11,12 @@ export default function Layout({ children }) {
       <nav className="w-full sticky top-0 z-50 shadow-sm" style={{ backgroundColor: '#183640' }}>
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-teal-500 flex items-center justify-center">
+            <div className="w-8 h-8 rounded-lg bg-teal-500 flex items-center justify-center shadow-sm">
               <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <span className="text-lg font-bold text-white tracking-tight">QuickShare</span>
+            <span className="text-lg font-bold text-white tracking-tight">SnapSnippet</span>
           </Link>
           
           {isHome ? (
